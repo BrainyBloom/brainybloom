@@ -56,3 +56,38 @@ header {
     transform: translateY(-6px);
     transition: 0.25s;
 }
+.login-container, .signup-container {
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+    text-align: center;
+}
+
+.login-container input, .signup-container input {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.login-container button, .signup-container button {
+    width: 95%;
+    padding: 12px;
+    margin-top: 10px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.login-container button:hover, .signup-container button:hover {
+    transform: scale(1.05);
+    background: #43A047;
+}
